@@ -1,1 +1,27 @@
+Requirement already satisfied: requests in /usr/local/lib/python3.11/dist-packages (2.32.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/dist-packages (from requests) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests) (2025.6.15)
+🧬 Resolving RXNorm codes...
+  Warfarin → RXCUI: 11289
+  Aspirin → RXCUI: 1191
+  Amiodarone → RXCUI: 703
+  Ibuprofen → RXCUI: 5640
+  Lisinopril → RXCUI: 29046
+⚠️ RxNav returned nothing. Checking fallback dataset...
 
+📋 Final Report:
+⚠️ Interactions for patient age 65:
+
+1. Warfarin, Aspirin
+   Severity: High
+   Note: From fallback dataset
+
+2. Warfarin, Amiodarone
+   Severity: High
+   Note: From fallback dataset
+
+3. Ibuprofen, Lisinopril
+   Severity: High
+   Note: From fallback dataset
