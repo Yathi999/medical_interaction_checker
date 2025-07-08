@@ -1,0 +1,11 @@
+drug1,drug2,severity
+Warfarin,Aspirin,High
+Warfarin,Amiodarone,High
+Ibuprofen,Lisinopril,Moderate
+Simvastatin,Clarithromycin,High
+Phenytoin,Fluconazole,High
+Theophylline,Ciprofloxacin,High
+Sildenafil,Nitroglycerin,High
+Metformin,Cimetidine,Moderate
+Clopidogrel,Omeprazole,Moderate
+Lithium,Ibuprofen,Moderate
