@@ -1,0 +1,10 @@
+medication-interaction-checker/
+├── med_checker.py                # Core engine with API and fallback
+├── fallback_interactions.csv     # Local known interaction pairs
+├── main.py                       # Sample runner
+├── requirements.txt              # Python dependencies
+├── README.md                     # This file
+├── assets/
+│   └── output.png                # Screenshot of output (optional)
+└── notebook/
+    └── interaction_checker_demo.ipynb  # (optional) Colab/Notebook version
